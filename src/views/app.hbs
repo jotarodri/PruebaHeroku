@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="/css/app.css">
+<script src="/js/filtrador.js"></script>
+{{>navigation}}
+{{>sidebar}}
+
+<div class="contenedor">
+  <!--{{>message}} 
+  -->
+  <div class="crearEvento mt-5">
+    <a href="/evento/add">
+      <button type="button" class="btn btn-primary botonEvento">Crear evento</button>
+    </a>
+  </div>
+  <hr>
+
+  <div class="filtrador">
+
+  </div>
+  <hr>
+  <div class="containerEventos">
+    
+<p class="links oculto">{{links.length}}</p>
+  
+{{#each links}}
+<p class="id oculto">{{id}}</p>
+<p class="tituloEvento oculto">{{titulo}}</p>
+<p class="tipodeporte oculto">{{tipodeporte}}</p>
+<p class="description oculto">{{description}}</p>
+<p class="nparticipantes oculto">{{nparticipantes}}</p>
+<p class="nparticipantesMAX oculto">{{nparticipantesMAX}}</p>
+<p class="created_at oculto">{{created_at}}</p>
+<p class="password oculto">{{password}}</p>
+<p class="fecha oculto">{{fecha}}</p>
+<p class="hora oculto">{{hora}}</p>
+<p class="municipio oculto">{{municipio}}</p>
+<p class="direccion oculto">{{direccion}}</p>
+<p class="user_id oculto">{{user_id}}</p>
+<p class="comunidad oculto">{{comunidad}}</p>
+{{/each}}
+  <div class="eventos">
+    
+    
+  </div>
+
+  
+
+</div>
+
+</div>
+
+</div>

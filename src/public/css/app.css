@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.cabeceraInicio {
+    display: none;
+    background-color: #151719;
+}*/
+
+.contenedor {
+    margin-left: 250px;
+    padding: 1px 16px;
+    /*height: 100vh;*/
+    background-size: cover;
+}
+
+.crearEvento {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+    margin-right: 10%;
+    background-color: green;
+}
+
+.eventos {
+    height: 100%;
+    width: 100%;
+}
+
+.botonEvento {
+    width: 200px;
+    height: 100px;
+}
+
+.eventos {
+    margin-left: 1%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.tarjetaEvento {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.parteSuperior {
+    display: flex;
+    height: 47%;
+    width: 100%;
+    color: black;
+}
+
+.parteInferior {
+    display: flex;
+    height: 53%;
+    width: 100%;
+    color: white;
+    background-color: #151719;
+}
+
+.imagenDeporte {
+    height: 140px;
+    width: 50%;
+    background-image: url("/img/deportesReal/futbol.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #151719;
+}
+
+.tituloEvento {
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.muni {
+    width: 50%;
+    height: 50%;
+    background-color: #151719;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.participantesEvento {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.eventoMunicipio {
+    margin-top: 1%;
+    color: white;
+}
+
+.acabaEl {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.verEvento {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oculto {
+    display: none;
+}
